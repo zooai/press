@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zoo Labs Press Kit</title>
+  <meta name="description" content="Zoo Labs press resources and media assets">
+  <style>
+    :root {
+      --bg: #0a0a0a;
+      --fg: #fafafa;
+      --muted: #71717a;
+      --accent: #6366f1;
+      --border: #27272a;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      min-height: 100vh;
+      padding: 4rem 2rem;
+    }
+    .container { max-width: 800px; margin: 0 auto; }
+    h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+      letter-spacing: -0.02em;
+      text-align: center;
+    }
+    .tagline {
+      font-size: 1.25rem;
+      color: var(--muted);
+      margin-bottom: 4rem;
+      text-align: center;
+    }
+    .card {
+      background: var(--border);
+      border-radius: 12px;
+      padding: 2rem;
+      margin-bottom: 1.5rem;
+    }
+    .card h2 {
+      font-size: 1.25rem;
+      margin-bottom: 1rem;
+    }
+    .card p {
+      color: var(--muted);
+      line-height: 1.7;
+    }
+    .boilerplate {
+      font-size: 1.1rem;
+      line-height: 1.8;
+      color: var(--fg);
+    }
+    .contact {
+      text-align: center;
+      margin: 3rem 0;
+    }
+    .contact-email {
+      font-size: 1.5rem;
+      color: var(--accent);
+      text-decoration: none;
+    }
+    .contact-email:hover { text-decoration: underline; }
+    .links {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    a.download {
+      display: block;
+      color: var(--fg);
+      text-decoration: none;
+      padding: 1.5rem;
+      background: var(--border);
+      border-radius: 8px;
+      text-align: center;
+      transition: all 0.2s;
+    }
+    a.download:hover {
+      background: var(--accent);
+    }
+    a.download span {
+      display: block;
+      font-size: 0.875rem;
+      color: var(--muted);
+      margin-top: 0.25rem;
+    }
+    a.download:hover span { color: rgba(255,255,255,0.7); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Press Kit</h1>
+    <p class="tagline">Zoo Labs media resources</p>
+
+    <div class="card">
+      <h2>About Zoo Labs</h2>
+      <p class="boilerplate">Zoo Labs Foundation is a 501(c)(3) nonprofit advancing decentralized AI research and decentralized science initiatives through open collaboration and community governance.</p>
+    </div>
+
+    <div class="card">
+      <h2>Quick Facts</h2>
+      <p>
+        <strong>Founded:</strong> 2024<br>
+        <strong>Headquarters:</strong> San Francisco, CA<br>
+        <strong>Website:</strong> <a href="https://zoo.ngo" style="color: var(--accent);">zoo.ngo</a>
+      </p>
+    </div>
+
+    <div class="contact">
+      <p style="color: var(--muted); margin-bottom: 0.5rem;">Media Contact</p>
+      <a href="mailto:press@zoo.ngo" class="contact-email">press@zoo.ngo</a>
+    </div>
+
+    <div class="links">
+      <a href="https://github.com/zooai/logo" class="download">
+        Logo Package
+        <span>SVG, PNG, PDF</span>
+      </a>
+      <a href="https://github.com/zooai/brand" class="download">
+        Brand Guidelines
+        <span>Colors, Typography</span>
+      </a>
+      <a href="https://github.com/zooai/identity" class="download">
+        Identity
+        <span>Values & Mission</span>
+      </a>
+    </div>
+  </div>
+</body>
+</html>
