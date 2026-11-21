@@ -1,5 +1,7 @@
 # Press Kit
 
+[![Open in Hanzo](https://hanzo.app/badges/open-in-hanzo.svg)](https://hanzo.app/dev/open?repo=github.com/zooai/press&ref=main&action=open) [![Edit with Hanzo](https://hanzo.app/badges/edit-with-hanzo.svg)](https://hanzo.app/dev/open?repo=github.com/zooai/press&ref=main&action=edit)
+
 Official press resources and media assets.
 
 ## Contents
